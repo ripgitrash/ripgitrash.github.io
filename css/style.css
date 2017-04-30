@@ -228,12 +228,6 @@ display:block;
 	  background: url(../images/github-new.png)no-repeat; 
 	}
 
-	.about ul li a.hacker {
-	  background: url(../images/cutmypic.png)no-repeat ;
-	  width: 72px;
-	  height: 72px;
-	  display: block;
-	}
 /*--//about--*/
 /*--my skill--*/
 .my-skills{
@@ -2936,75 +2930,37 @@ border:none;
 	.about ul li {
 	  margin-right: 6px;
 	}
-	.about ul li a.drib {
-	  background: url(../images/icons.png) no-repeat -207px 1px;
-	  width: 50px;
-	  height: 50px;
+   .about ul li a.fb{
+background: url(../images/fb.png) no-repeat ;
+width:72px;
+height:72px;
+display:block;
+}
+
+.about ul li a.fb:hover {
+	  background: url(../images/fb-new.png)no-repeat; 
+	}
+
+.about ul li a.in{
+background: url(../images/linkdn.png) no-repeat ;
+width:72px;
+height:72px;
+display:block;
+}
+
+.about ul li a.in:hover {
+	  background: url(../images/linkdn-new.png)no-repeat; 
+	}
+
+.about ul li a.git {
+	  background: url(../images/github.png)no-repeat; 
+	  width: 72px;
+	  height: 72px;
 	  display: block;
-	  background-size: 839% !important;
 	}
-	.about ul li a.drib:hover {
-	  background: url(../images/icons.png) no-repeat -207px -49px;
-		  background-size: 839% !important;
-	  }
-	.about ul li a.fb {
-	  background: url(../images/icons.png) no-repeat -0px 0px;
-	  width: 50px;
-	  height: 50px;
-	  display: block;
-	  background-size: 839% !important;
+.about ul li a.git:hover {
+	  background: url(../images/github-new.png)no-repeat; 
 	}
-	.about ul li a.fb:hover {
-	  background: url(../images/icons.png) no-repeat -0px -49px;
-		  background-size: 839% !important;
-	  }
-	.about ul li a.pin {
-	  background: url(../images/icons.png) no-repeat -346px 0px;
-	  width: 50px;
-	  height: 50px;
-	  display: block;
-	  background-size: 839% !important;
-	}
-	.about ul li a.pin:hover {
-	  background: url(../images/icons.png) no-repeat -346px -49px;
-		  background-size: 839% !important;
-	  }
-	.about ul li a.twit {
-	  background: url(../images/icons.png) no-repeat -69px 1px;
-	  width: 50px;
-	  height: 50px;
-	  display: block;
-	  background-size: 839% !important;
-	}
-	.about ul li a.goog {
-	  background: url(../images/icons.png) no-repeat -278px 0px;
-	  width: 50px;
-	  height: 50px;
-	  display: block;
-	  background-size: 839% !important;
-	}
-	.about ul li a.goog:hover {
-	  background: url(../images/icons.png) no-repeat -278px -49px;
-		  background-size: 839% !important;
-	  }
-	.about ul li a.in {
-	  background: url(../images/icons.png) no-repeat -139px 1px;
-	  width: 50px;
-	  height: 50px;
-	  display: block;
-	  background-size: 839% !important;
-	}
-	.about ul li a.in:hover{
-	  background: url(../images/icons.png) no-repeat -139px -49px;
-		  background-size: 839% !important;
-	  }
-	.banner-right h1 {
-	  margin: 8px 0 15px 0;
-	}
-	.about ul li a.twit:hover {
-	  background: url(../images/icons.png) no-repeat -69px -49px;
-		background-size: 839% !important;
-	  }
 	.my-skills h3 {
 	  letter-spacing: 11px;
 	  font-size: 28px;
@@ -3440,87 +3396,38 @@ a.callbacks_nav.callbacks1_nav.prev {
 .col-md-7.contact-right {
   margin-top: 30px;
 }
-.about ul li a.drib {
-	  background: url(../images/icons.png) no-repeat -137px 1px;
-	  width: 33px;
-	  height: 33px;
-	  display: block;
-	  background-size: 839% !important;
-	}
-.about ul li a.drib:hover {
-	  background: url(../images/icons.png) no-repeat -137px -33px;
-	  }
-	.about ul li a.fb {
-	  background: url(../images/icons.png) no-repeat -0px 1px;
-	  width: 33px;
-	  height: 33px;
-	  display: block;
-	  background-size: 839% !important;
-	}
-	.about ul li a.fb:hover {
-	  background: url(../images/icons.png) no-repeat -0px -33px;
+    .about ul li a.fb{
+background: url(../images/fb.png) no-repeat ;
+width:33px;
+height:33px;
+display:block;
 }
-    	.about ul li a.git {
-	  background: url(../images/cutmypic.png) no-repeat -0px 1px;
-	  width: 33px;
-	  height: 33px;
-	  display: block;
-	  background-size: 839% !important;
-	}
-	.about ul li a.git:hover {
-	  background: url(../images/icons.png) no-repeat -0px -33px;
-}	  
-	.about ul li a.hacker {
-	  background: url(../images/icons.png) no-repeat -0px 1px;
-	  width: 33px;
-	  height: 33px;
-	  display: block;
-	  background-size: 839% !important;
-	}
-	.about ul li a.hacker:hover {
-	  background: url(../images/icons.png) no-repeat -0px -33px;
-}	  
 
-	.about ul li a.pin {
-	  background: url(../images/icons.png) no-repeat -229px 0px;
+.about ul li a.fb:hover {
+	  background: url(../images/fb-new.png)no-repeat; 
+	}
+
+.about ul li a.in{
+background: url(../images/linkdn.png) no-repeat ;
+width:33px;
+height:33px;
+display:block;
+}
+
+.about ul li a.in:hover {
+	  background: url(../images/linkdn-new.png)no-repeat; 
+	}
+
+.about ul li a.git {
+	  background: url(../images/github.png)no-repeat; 
 	  width: 33px;
 	  height: 33px;
 	  display: block;
-	  background-size: 839% !important;
 	}
-	.about ul li a.pin:hover {
-	  background: url(../images/icons.png) no-repeat -229px -33px;
-	  }
-	.about ul li a.twit {
-	  background: url(../images/icons.png) no-repeat -46px 1px;
-	  width: 33px;
-	  height: 33px;
-	  display: block;
-	  background-size: 839% !important;
+.about ul li a.git:hover {
+	  background: url(../images/github-new.png)no-repeat; 
 	}
-	.about ul li a.twit:hover {
-	  background: url(../images/icons.png) no-repeat -46px -32px;
-	  }
-	.about ul li a.goog {
-	  background: url(../images/icons.png) no-repeat -183px 0px;
-	  width: 33px;
-	  height: 33px;
-	  display: block;
-	  background-size: 839% !important;
-	}
-	.about ul li a.goog:hover {
-	  background: url(../images/icons.png) no-repeat -183px -33px;
-}	  
-	.about ul li a.in {
-	  background: url(../images/icons.png) no-repeat -92px 1px;
-	  width: 33px;
-	  height: 33px;
-	  display: block;
-	  background-size: 839% !important;
-	}
-	.about ul li a.in:hover {
-	  background: url(../images/icons.png) no-repeat -92px -33px;
-	  }
+
 }
 
 
