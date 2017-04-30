@@ -18,7 +18,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-					url: "https://formspree.io/rishab.garg2014@vit.ac.in", 
+					url: "https://formspree.io/rishu_garg1996@yahoo.co.in", 
 					method: "POST",
 					data: {message: finalmessage},
 					dataType: "json",
