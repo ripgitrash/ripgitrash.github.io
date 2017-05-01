@@ -327,8 +327,6 @@
                 </div>
             </div>
             <!--//services-->
-                <script type="text/javascript" src="js/contact_me.js"></script>    
-                <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>    
             <div class="contact-back"></div>
             <!--contact-->
             <div class="contact" id="contact">
@@ -349,12 +347,13 @@
                         <div class="col-md-7 contact-right">
                             <h3>Drop Me A Line</h3>
                             <div class="stripb"></div>
-                            <form name="sentMessage" id="contactForm">
-                                <input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}"  id="name" required data-validation-required-message="Please enter your name.">
-                                <input type="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}" id="email" required data-validation-required-message="Please enter your email address." >
-                                <textarea type="text" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}"  id="message" required data-validation-required-message="Please enter a message.">Message</textarea>
-                        	<input type="submit" value="SEND">
-				        </form>
+                            <form method="POST" action="http://formspree.io/rishu_garg1996@yahoo.co.in">
+					<input type="text" value="Name" name="name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+					<input type="text" value="E-mail" name="email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}" required="">
+					<textarea type="text" name="message"onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}" required="">Message</textarea>
+					<input type="submit" value="SEND">
+				</form>
+			
                         </div>
                         <div class="clearfix"></div>
                     </div>
